@@ -242,13 +242,13 @@ html{
     display: block;
     margin-bottom: 10px;
 }
-.skills .skill .barra-skill{
+/* .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
     background-color: #131517;
     position: relative;
     margin-bottom: 30px;
-}
+} */
 .skills .skill .progreso{
     background-color: #1CB698;
     position: absolute;
@@ -256,7 +256,7 @@ html{
     left: 0;
     height: 8px;
 }
-.skills .skill .barra-skill span{
+/* .skills .skill .barra-skill span{
     position: absolute;
     height: 40px;
     width: 40px;
@@ -267,7 +267,7 @@ html{
     top: -17px;
     right: -15px;
     font-size: 14px;
-}
+} */
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
@@ -711,4 +711,18 @@ footer .arriba{
     .contacto .fila .col{
         width: 100%;
     }
+}
+
+a {
+    text-decoration: none;
+}
+
+.pcolor {
+    
+    color: #00ffcc;
+    font-size: 20px;
+}
+
+.sh3 .pcolor {
+    text-align: center;
 }
